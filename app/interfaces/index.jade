@@ -1,0 +1,20 @@
+- pageTitle = 'Home'
+- menu = { home: 'active', about: '', contact : ''}
+
+doctype html
+html(lang="en")
+  include ./includes/head.jade
+
+  body
+    div.container
+
+      include ./includes/header.jade
+
+      div.jumbotron
+        h1 Titulo é: #{pageTitle}
+          p.lead Always a pleasure scaffolding your apps.
+          p
+            a.btn.btn-lg.btn-success(href="#") Maravilhososs 2
+    
+    include ./includes/footer.jade
+    include ./includes/js.jade
