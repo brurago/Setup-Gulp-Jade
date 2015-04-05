@@ -8,11 +8,14 @@ This is my first Gulp setup using generator-gulp-webapp customized for JADE :)
 
 ## Project config
 
+At first, try:
+`npm install`
+
 In the folder's project, install these modules:
 
-`npm install gulp gulp-sass browser-sync gulp-jade`
+`npm install gulp gulp-sass browser-sync gulp-jade gulp-util gulp-load-plugins`
 
-Aftet that:
+After that:
 
 `bower install`
 
