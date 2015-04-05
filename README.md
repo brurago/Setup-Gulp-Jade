@@ -12,6 +12,10 @@ In the folder's project, install these modules:
 
 `npm install gulp gulp-sass browser-sync gulp-jade`
 
+Aftet that:
+
+`bower install`
+
 ## Project server
 
 To create a real-time server, use this:
